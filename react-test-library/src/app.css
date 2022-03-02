@@ -1,0 +1,45 @@
+table {
+    border: 1px solid;
+    width: 100%;
+}
+
+table td,
+table th {
+    text-align: left;
+    padding: 10px;
+}
+
+table th {
+    background-color: azure;
+}
+
+.app {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.add-new-bug-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.add-new-bug-form * {
+    margin: 5px 0;
+}
+
+.add-new-bug-form input,
+.add-new-bug-form select {
+    padding: 10px;
+}
+
+.add-new-bug-form button {
+    background-color: cadetblue;
+    border: 0;
+    padding: 10px;
+    color: white;
+}
